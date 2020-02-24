@@ -31,3 +31,12 @@ final class FoodListAssembly {
         return controller
     }
 }
+
+final class FoodListDIAssembly: Assembly {
+    func assemble(container: Container) {
+        container.register(FoodListAssembly.self) { FoodListAssembly(resolver: $0) }
+        container.autoregister(FoodListViewProtocol.self, initializer: FoodListView.init)
+        container.autoregister(FoodListInteractorProtocol.self, initializer: FoodListInteractor.init)
+        container.autoregister(FoodListRouterProtocol.self, initializer: FoodListRouter.init(assembly:))
+    }
+}
