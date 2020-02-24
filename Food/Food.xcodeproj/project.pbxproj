@@ -15,7 +15,7 @@
 		8284D8E624036E29000A6E6A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8284D8E524036E29000A6E6A /* Preview Assets.xcassets */; };
 		8284D8E924036E29000A6E6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8284D8E724036E29000A6E6A /* LaunchScreen.storyboard */; };
 		8284D8F424036E2A000A6E6A /* FoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8284D8F324036E2A000A6E6A /* FoodTests.swift */; };
-		8284D90224036EA2000A6E6A /* FoodListPresentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8284D90124036EA2000A6E6A /* FoodListPresentor.swift */; };
+		8284D90224036EA2000A6E6A /* FoodListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8284D90124036EA2000A6E6A /* FoodListController.swift */; };
 		8284D90424036F24000A6E6A /* FoodListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8284D90324036F24000A6E6A /* FoodListInteractor.swift */; };
 		8284D90624036F67000A6E6A /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8284D90524036F67000A6E6A /* Food.swift */; };
 		8284D90924036FCA000A6E6A /* FoodListAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8284D90824036FCA000A6E6A /* FoodListAssembly.swift */; };
@@ -26,6 +26,10 @@
 		8284D91524037C84000A6E6A /* AnyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8284D91424037C84000A6E6A /* AnyView.swift */; };
 		8284D91724037DBA000A6E6A /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8284D91624037DBA000A6E6A /* Router.swift */; };
 		8284D9192403AF62000A6E6A /* FoodDetailAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8284D9182403AF61000A6E6A /* FoodDetailAssembly.swift */; };
+		8284D91B2403B331000A6E6A /* FoodDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8284D91A2403B331000A6E6A /* FoodDetailController.swift */; };
+		8284D91D2403B4DD000A6E6A /* FoodDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8284D91C2403B4DD000A6E6A /* FoodDetailInteractor.swift */; };
+		8284D91F2403B504000A6E6A /* FoodDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8284D91E2403B504000A6E6A /* FoodDetailRouter.swift */; };
+		8284D9222403B583000A6E6A /* FoodDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8284D9212403B583000A6E6A /* FoodDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +56,7 @@
 		8284D8EF24036E2A000A6E6A /* FoodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8284D8F324036E2A000A6E6A /* FoodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTests.swift; sourceTree = "<group>"; };
 		8284D8F524036E2A000A6E6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8284D90124036EA2000A6E6A /* FoodListPresentor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListPresentor.swift; sourceTree = "<group>"; };
+		8284D90124036EA2000A6E6A /* FoodListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListController.swift; sourceTree = "<group>"; };
 		8284D90324036F24000A6E6A /* FoodListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListInteractor.swift; sourceTree = "<group>"; };
 		8284D90524036F67000A6E6A /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
 		8284D90824036FCA000A6E6A /* FoodListAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListAssembly.swift; sourceTree = "<group>"; };
@@ -63,6 +67,10 @@
 		8284D91424037C84000A6E6A /* AnyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyView.swift; sourceTree = "<group>"; };
 		8284D91624037DBA000A6E6A /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		8284D9182403AF61000A6E6A /* FoodDetailAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailAssembly.swift; sourceTree = "<group>"; };
+		8284D91A2403B331000A6E6A /* FoodDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailController.swift; sourceTree = "<group>"; };
+		8284D91C2403B4DD000A6E6A /* FoodDetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailInteractor.swift; sourceTree = "<group>"; };
+		8284D91E2403B504000A6E6A /* FoodDetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailRouter.swift; sourceTree = "<group>"; };
+		8284D9212403B583000A6E6A /* FoodDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailView.swift; sourceTree = "<group>"; };
 		9BBC991BBE068782E2E8ACCC /* Pods-FoodTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodTests.debug.xcconfig"; path = "Target Support Files/Pods-FoodTests/Pods-FoodTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C2AEA74255CD65C54492E25E /* Pods-Food.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Food.release.xcconfig"; path = "Target Support Files/Pods-Food/Pods-Food.release.xcconfig"; sourceTree = "<group>"; };
 		EE8DD81776A1E1757E24EF0C /* Pods-Food.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Food.debug.xcconfig"; path = "Target Support Files/Pods-Food/Pods-Food.debug.xcconfig"; sourceTree = "<group>"; };
@@ -157,7 +165,7 @@
 			children = (
 				8284D90C24037399000A6E6A /* Entities */,
 				8284D90724036FBF000A6E6A /* Views */,
-				8284D90124036EA2000A6E6A /* FoodListPresentor.swift */,
+				8284D90124036EA2000A6E6A /* FoodListController.swift */,
 				8284D90324036F24000A6E6A /* FoodListInteractor.swift */,
 				8284D90824036FCA000A6E6A /* FoodListAssembly.swift */,
 				8284D91124037B6C000A6E6A /* FoodListRouter.swift */,
@@ -168,7 +176,11 @@
 		8284D8FF24036E7C000A6E6A /* FoodDetail */ = {
 			isa = PBXGroup;
 			children = (
+				8284D9202403B565000A6E6A /* Views */,
 				8284D9182403AF61000A6E6A /* FoodDetailAssembly.swift */,
+				8284D91A2403B331000A6E6A /* FoodDetailController.swift */,
+				8284D91C2403B4DD000A6E6A /* FoodDetailInteractor.swift */,
+				8284D91E2403B504000A6E6A /* FoodDetailRouter.swift */,
 			);
 			path = FoodDetail;
 			sourceTree = "<group>";
@@ -206,6 +218,14 @@
 				8284D91624037DBA000A6E6A /* Router.swift */,
 			);
 			path = SharedProtocols;
+			sourceTree = "<group>";
+		};
+		8284D9202403B565000A6E6A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8284D9212403B583000A6E6A /* FoodDetailView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		A5875E309B914601629D8909 /* Frameworks */ = {
@@ -404,16 +424,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8284D91F2403B504000A6E6A /* FoodDetailRouter.swift in Sources */,
 				8284D91224037B6C000A6E6A /* FoodListRouter.swift in Sources */,
 				8284D8DD24036E25000A6E6A /* AppDelegate.swift in Sources */,
 				8284D9102403794C000A6E6A /* FoodCell.swift in Sources */,
 				8284D90924036FCA000A6E6A /* FoodListAssembly.swift in Sources */,
+				8284D9222403B583000A6E6A /* FoodDetailView.swift in Sources */,
+				8284D91B2403B331000A6E6A /* FoodDetailController.swift in Sources */,
 				8284D90E240373E6000A6E6A /* FoodListView.swift in Sources */,
 				8284D91524037C84000A6E6A /* AnyView.swift in Sources */,
 				8284D8DF24036E25000A6E6A /* SceneDelegate.swift in Sources */,
 				8284D90624036F67000A6E6A /* Food.swift in Sources */,
+				8284D91D2403B4DD000A6E6A /* FoodDetailInteractor.swift in Sources */,
 				8284D90424036F24000A6E6A /* FoodListInteractor.swift in Sources */,
-				8284D90224036EA2000A6E6A /* FoodListPresentor.swift in Sources */,
+				8284D90224036EA2000A6E6A /* FoodListController.swift in Sources */,
 				8284D9192403AF62000A6E6A /* FoodDetailAssembly.swift in Sources */,
 				8284D91724037DBA000A6E6A /* Router.swift in Sources */,
 			);
