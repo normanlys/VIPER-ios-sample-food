@@ -162,7 +162,6 @@
 		8284D8FE24036E76000A6E6A /* FoodList */ = {
 			isa = PBXGroup;
 			children = (
-				8284D90C24037399000A6E6A /* Entities */,
 				8284D90724036FBF000A6E6A /* Views */,
 				8284D90124036EA2000A6E6A /* FoodListController.swift */,
 				8284D90324036F24000A6E6A /* FoodListInteractor.swift */,
@@ -187,7 +186,7 @@
 		8284D90024036E84000A6E6A /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				8284D91324037C77000A6E6A /* SharedProtocols */,
+				8284D91324037C77000A6E6A /* Shared */,
 				8284D8FF24036E7C000A6E6A /* FoodDetail */,
 				8284D8FE24036E76000A6E6A /* FoodList */,
 			);
@@ -203,21 +202,14 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		8284D90C24037399000A6E6A /* Entities */ = {
-			isa = PBXGroup;
-			children = (
-				8284D90524036F67000A6E6A /* Food.swift */,
-			);
-			path = Entities;
-			sourceTree = "<group>";
-		};
-		8284D91324037C77000A6E6A /* SharedProtocols */ = {
+		8284D91324037C77000A6E6A /* Shared */ = {
 			isa = PBXGroup;
 			children = (
 				8284D91424037C84000A6E6A /* AnyView.swift */,
+				8284D90524036F67000A6E6A /* Food.swift */,
 				8284D91624037DBA000A6E6A /* Router.swift */,
 			);
-			path = SharedProtocols;
+			path = Shared;
 			sourceTree = "<group>";
 		};
 		8284D9202403B565000A6E6A /* Views */ = {
