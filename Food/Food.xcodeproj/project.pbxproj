@@ -130,7 +130,6 @@
 		8284D8DB24036E25000A6E6A /* Food */ = {
 			isa = PBXGroup;
 			children = (
-				8284D91324037C77000A6E6A /* SharedProtocols */,
 				8284D90024036E84000A6E6A /* Modules */,
 				8284D8DC24036E25000A6E6A /* AppDelegate.swift */,
 				8284D8DE24036E25000A6E6A /* SceneDelegate.swift */,
@@ -188,6 +187,7 @@
 		8284D90024036E84000A6E6A /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				8284D91324037C77000A6E6A /* SharedProtocols */,
 				8284D8FF24036E7C000A6E6A /* FoodDetail */,
 				8284D8FE24036E76000A6E6A /* FoodList */,
 			);
