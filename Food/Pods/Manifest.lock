@@ -1,0 +1,37 @@
+PODS:
+  - BonMot (5.3)
+  - Cuckoo (1.1.0)
+  - SteviaLayout (4.5.0)
+  - SwiftLint (0.34.0)
+  - Swinject (2.6.0)
+  - SwinjectAutoregistration (2.6.0):
+    - Swinject (~> 2.6)
+
+DEPENDENCIES:
+  - BonMot (= 5.3)
+  - Cuckoo (= 1.1.0)
+  - SteviaLayout (= 4.5.0)
+  - SwiftLint (= 0.34.0)
+  - Swinject (= 2.6.0)
+  - SwinjectAutoregistration (= 2.6.0)
+
+SPEC REPOS:
+  trunk:
+    - BonMot
+    - Cuckoo
+    - SteviaLayout
+    - SwiftLint
+    - Swinject
+    - SwinjectAutoregistration
+
+SPEC CHECKSUMS:
+  BonMot: 0104d1b4eda54f4a4b7393d6559539ef25498fbd
+  Cuckoo: 6184a6bdc122b1a8e27b80198f76d1038ddbe861
+  SteviaLayout: aa64a62810544348c9e328a6521cb9160fa82ec6
+  SwiftLint: 79d48a17c6565dc286c37efb8322c7b450f95c67
+  Swinject: 48a96cda93633cf2860697b4ce76ab5db9ebaca2
+  SwinjectAutoregistration: 93a908f7543c401b0c315305ac0ae501efdbce89
+
+PODFILE CHECKSUM: f20b371856461fb85ad5be28b8b687ecc7717a51
+
+COCOAPODS: 1.8.4

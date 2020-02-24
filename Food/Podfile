@@ -1,0 +1,23 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Food' do
+  # Pods for Food
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Fruit-VIPER
+  pod 'SwiftLint', '0.34.0'
+  pod 'Swinject', '2.6.0'
+  pod 'SwinjectAutoregistration', '2.6.0'	
+
+  # UI layout libraries
+  pod 'SteviaLayout', '4.5.0'
+  pod 'BonMot', '5.3'
+
+  target 'FoodTests' do
+    inherit! :search_paths
+    # Pods for testing
+    pod 'Cuckoo', '1.1.0'
+  end
+end
