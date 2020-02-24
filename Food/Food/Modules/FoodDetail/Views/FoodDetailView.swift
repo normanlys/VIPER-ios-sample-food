@@ -66,6 +66,7 @@ final class FoodDetailView: UIView {
 
 extension FoodDetailView: FoodDetailViewProtocol {
     func presentModel(_ model: FoodDetailViewModel) {
+        viewModel = model
         label.text = viewModel?.id
     }
 }
