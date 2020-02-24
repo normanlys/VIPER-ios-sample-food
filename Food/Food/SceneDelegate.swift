@@ -19,10 +19,13 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         let window = UIWindow(windowScene: windowScene)
         let container = Container()
-        container.autoregister(FoodListViewProtocol.self, initializer: FoodListView.init)
-        container.autoregister(FoodListInteractorProtocol.self, initializer: FoodListInteractor.init)
-        container.autoregister(FoodListRouterProtocol.self, initializer: FoodListRouter.init)
-        container.autoregister(FoodDetailAssembly.self, initializer: FoodDetailAssembly.init)
+        let assemblies: [Assembly] = [
+            FoodListDIAssembly(),
+            FoodDetailDIAssembly()
+            ]
+        assemblies.forEach {
+                $0.assemble(container: container)
+        }
         
         let rootVC = FoodListAssembly(resolver: container).module()
         let navigation = UINavigationController(rootViewController: rootVC)
