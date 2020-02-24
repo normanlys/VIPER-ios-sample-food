@@ -23,13 +23,13 @@ final class FoodListInteractor: FoodListInteractorProtocol {
                 let path = Bundle.main.path(forResource: "Foods", ofType: "json"),
                 let jsonData = try? Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe),
                 let json = try? JSONDecoder().decode([Food].self, from: jsonData) else {
-                    DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
                         completion(.failure(FoodListInteractorError.unableToReadFile))
                     }
                     return
             }
             
-            DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
                 completion(.success(json))
             }
         }
