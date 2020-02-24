@@ -24,7 +24,7 @@ final class FoodListRouter: Router, FoodListRouterProtocol {
     
     func showFoodDetail(_ food: Food) {
         let vc = foodDetailAssembly.module(food: food)
-        sourceViewController?.navigationController?.pushViewController(vc, animated: true)
+        sourceViewController?.present(vc, animated: true)
     }
     
     func showFailureAlert(error: Error) {
