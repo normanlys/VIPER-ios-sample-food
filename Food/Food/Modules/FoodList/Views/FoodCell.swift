@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 final class FoodCell: UITableViewCell {
-    func present(model: FoodListItem) {
+    func presentModel(_ model: FoodListItem) {
         textLabel?.text = model.id
     }
 }

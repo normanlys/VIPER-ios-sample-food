@@ -85,7 +85,7 @@ extension FoodListView: UITableViewDataSource {
             let listItem = viewModel?.listItems[indexPath.row] else {
                 return FoodCell()
         }
-        cell.present(model: listItem)
+        cell.presentModel(listItem)
         return cell
     }
     
